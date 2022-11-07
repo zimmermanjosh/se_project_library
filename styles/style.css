@@ -1,4 +1,14 @@
 /* Add your class here */
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Arial," "Helvetica", "sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  align-content: center;
+  
+}
 
 .header {
   height: 100vh;
@@ -11,17 +21,25 @@
   box-sizing: border-box;
 }
 
-.nav {
-  /* Add flex properties here */
+.nav-title-header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
+  height: 60px;
+  width: 196px;
 }
 
 .nav__links {
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
+  margin-bottom: 0 px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
 
 .nav__link {
@@ -30,9 +48,15 @@
   font-weight: bold;
 }
 
+.hover:hover{
+  flex: automatically;
+  color: #1f69c9;
+}
+
 /* Add the hover state styles for .nav__link here */
 
 .header__title {
+  max-width: 544px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
@@ -40,6 +64,7 @@
 }
 
 .header__description {
+  max-width: 465px;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
@@ -47,6 +72,10 @@
 
 .header__image {
   /* Write styles here */
+  position: absolute;
+  top: 135px;
+  right: 20px;
+  max-width: 636px;
   z-index: 1;
 }
 
@@ -68,6 +97,11 @@
 }
 
 /* Add the hover state styles for .header__link here */
+
+.footer__link_hover{
+  background-color: #c1c1c1;
+}
+
 
 .header__address {
   margin: 0;
@@ -98,7 +132,9 @@
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .card {
-  background-color: #fff;
+  width: 360px;
+  height: 420px;
+  background-color: #ffffff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
@@ -122,6 +158,7 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
+  color: ;
 }
 
 .card__footer {
@@ -175,14 +212,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
-  background-image: url(../images/icon_calendar.svg);
+  background-image: url(/images/icon_calendar.svg);
 }
 
 .event-info__icon_type_pin {
-  background-image: url(../images/icon_pin.svg);
+  background-image: url(/images/icon_pin.svg);
 }
 
 .event-info__text {
@@ -205,65 +244,76 @@
 /* Add the hover state styles for .events__more here */
 
 .events__cover {
-  /* flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; */
+  position: relative;
+  border: 1px solid red;
 }
 
 .events__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person {
-  /* position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
+ top: -30px;
+ left:319px;
 }
 
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 79px;
+  left: 159px
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
-  /* width: 100px; */
+  width: 100px;
 }
 
 .person__image_size_s {
-  /* width: 80px; */
+  width: 80px;
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
 
 .membership {
@@ -320,6 +370,7 @@
 
 .about__title {
   margin: 0;
+  max-width: 154px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -346,6 +397,7 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
