@@ -7,7 +7,6 @@
   font-size: 16px;
   line-height: 20px;
   align-content: center;
-  
 }
 
 .header {
@@ -48,7 +47,7 @@
   font-weight: bold;
 }
 
-.hover:hover{
+.hover:hover {
   flex: automatically;
   color: #1f69c9;
 }
@@ -98,10 +97,9 @@
 
 /* Add the hover state styles for .header__link here */
 
-.footer__link_hover{
+.footer__link_hover {
   background-color: #c1c1c1;
 }
-
 
 .header__address {
   margin: 0;
@@ -266,8 +264,8 @@
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
- top: -30px;
- left:319px;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
@@ -291,7 +289,7 @@
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
   top: 79px;
-  left: 159px
+  left: 159px;
 }
 
 .person__image {
