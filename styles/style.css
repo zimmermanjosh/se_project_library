@@ -148,7 +148,8 @@
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   display: inline-block;
-  bottom: 48px;
+  /* height: 420px; */
+  /* bottom: 48px; */
 }
 
 .card__content {
@@ -398,7 +399,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  border: #f2f2f2 1px solid;
+  /* border: #f2f2f2 1px solid; */
 }
 
 .about__content {
@@ -406,7 +407,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  border: yellow 1px solid;
+  /* border: yellow 1px solid; */
   padding-left: 100px;
   display: flex;
   flex-direction: column;
@@ -416,7 +417,7 @@
 
 .about__paragraph {
   margin: 0;
-  border: orange 1px solid;
+  /* border: orange 1px solid; */
 }
 
 .about__circle {
@@ -433,34 +434,52 @@
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 103px 60px 80px;
+  /* border: orange 1px solid; */
 }
 
 .footer__columns {
+  display: flex;
+  min-height: 214px;
+  /* border: orange 1px solid; */
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
+  /* border: orange 1px solid; */
 }
 
 .footer__column_content_social {
+  margin-left: 100px;
+  /* border: orange 1px solid; */
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
+  /* border: orange 1px solid; */
 }
 
 .footer__list {
   /* The code below removes the default browser styles for lists */
   list-style-type: none;
+  margin-left: auto;
   padding: 0;
   margin: 0;
+  /* border: orange 1px solid; */
 }
 
 .footer__list-item {
+  /* border: orange 1px solid; */
 }
 
 .footer__column-heading {
+  /* border: orange 1px solid; */
 }
 
 .footer__column-link {
+  /* border: orange 1px solid; */
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -468,7 +487,16 @@
 }
 
 .footer__social-icon {
+  /* border: orange 1px solid; */
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
+  /* border: orange 1px solid; */
+  font-size: 16px;
+  margin: 0;
+  padding-top: 0;
 }
