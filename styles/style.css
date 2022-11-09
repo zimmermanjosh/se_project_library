@@ -387,14 +387,18 @@
   position: relative;
   box-sizing: border-box;
   column-gap: 120px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .about__title {
   margin: 0;
-  max-width: 154px;
   font-size: 20px;
+  max-width: 154px;
   line-height: 30px;
   font-weight: 500;
+  z-index: 1;
+  border: #f2f2f2 1px solid;
 }
 
 .about__content {
@@ -402,12 +406,17 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  align-items: center;
-  justify-content: center;
+  border: yellow 1px solid;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  z-index: 1;
 }
 
 .about__paragraph {
   margin: 0;
+  border: orange 1px solid;
 }
 
 .about__circle {
@@ -418,7 +427,7 @@
   position: absolute;
   top: -121px;
   left: -91px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .footer {
