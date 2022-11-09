@@ -136,6 +136,8 @@
   align-items: center;
   /*top: -68px;*/
   padding-top: 68px;
+  padding-left: 0px;
+  list-style: none;
   gap: 40px;
 }
 
@@ -471,10 +473,14 @@
 
 .footer__list-item {
   /* border: orange 1px solid; */
+  padding-bottom: 16px;
 }
 
 .footer__column-heading {
   /* border: orange 1px solid; */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .footer__column-link {
