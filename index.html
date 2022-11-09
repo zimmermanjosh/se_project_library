@@ -13,36 +13,34 @@
     <div class="page">
       <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
       <header class="header">
-        <section id="navigation" class="nav-title-header-block">
+        <nav class="nav">
           <img
             src="./images/logo.png"
             alt="Practicum Library Logo"
             class="logo"
           />
-          <div id="nav__link">
-            <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
-            <ul class="nav__links">
-              <li>
-                <a href="#staff" class="nav__link">Staff picks</a>
-              </li>
-              <li>
-                <a href="#events" class="nav__link">Events</a>
-              </li>
-              <li>
-                <a href="#membership" class="nav__link">Become a member</a>
-              </li>
-              <li>
-                <a href="#about" class="nav__link">About</a>
-              </li>
-              <li>
-                <a href="#contacts" class="nav__link">Contacts</a>
-              </li>
-              <!--<li>
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#staff" class="nav__link">Staff picks</a>
+            </li>
+            <li>
+              <a href="#events" class="nav__link">Events</a>
+            </li>
+            <li>
+              <a href="#membership" class="nav__link">Become a member</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contacts</a>
+            </li>
+            <!--<li>
                 <a href="#footer" class="nav__link">Footer</a>
               </li> -->
-            </ul>
-          </div>
-        </section>
+          </ul>
+        </nav>
         <h1 class="header__title">Welcome to the Practicum Library</h1>
         <p class="header__description">
           We're pleased to open our library doors to everyone! Come and expand
@@ -69,7 +67,7 @@
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
           <ul class="staff__content-formatting">
             <li class="card">
-              <section class="card__content">
+              <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
                 <p class="card__text">
                   The name of this book is self-explanatory; it's a proper
@@ -82,11 +80,11 @@
                   Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
                   Clifford Stein
                 </p>
-              </section>
+              </div>
             </li>
 
             <li class="card">
-              <section class="card__content">
+              <div class="card__content">
                 <h3 class="card__title">
                   The Structure and Interpretation of Computer Programs (SICP)
                 </h3>
@@ -100,11 +98,11 @@
                 <p class="card__footer">
                   Harold Abelson, Gerald Jay Sussman, Julie Sussman
                 </p>
-              </section>
+              </div>
             </li>
 
             <li class="card">
-              <section class="card__content">
+              <div class="card__content">
                 <h3 class="card__title">
                   The Clean Coder: A Code of Conduct for Professional
                   Programmers
@@ -117,11 +115,11 @@
                   cultivate the attitude of a skilled, professional programmer.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
-              </section>
+              </div>
             </li>
 
             <li class="card">
-              <section class="card__content">
+              <div class="card__content">
                 <h3 class="card__title">
                   Code Complete: A Practical Handbook of Software Construction
                 </h3>
@@ -133,7 +131,7 @@
                   related to good code structure.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
-              </section>
+              </div>
             </li>
           </ul>
         </section>
@@ -318,14 +316,14 @@
           <div class="footer__column footer__column_content_hours">
             <h4 class="footer__column-heading">Hours</h4>
             <ul class="footer__list">
-              <li class="footer__list_item">Weekdays: 9am - 8pm</li>
-              <li class="footer__list_item">Weekends: 10am - 6pm</li>
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
           <div class="footer__column footer__column_content_social">
             <h4 class="footer__column-heading">social media</h4>
             <ul class="footer__list">
-              <li class="footer__list_item">
+              <li class="footer__list-item">
                 <a href="#" class="footer__column-link">
                   <img
                     src="./images/facebook_white.svg"
@@ -335,7 +333,7 @@
                   facebook
                 </a>
               </li>
-              <li class="footer__list_item">
+              <li class="footer__list-item">
                 <a href="#" class="footer__column-link">
                   <img
                     src="./images/instagram_white.svg"
@@ -345,12 +343,11 @@
                   instagram
                 </a>
               </li>
-              <li class="footer__list_item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
         </div>
         <!-- The time to mark up the footer has come, you can do it 💪 -->
-        <p class="footer-copyright">2022 Joshua Zimmerman</p>
+        <p class="footer__copyright">© 2022 Joshua Zimmerman</p>
       </footer>
     </div>
   </body>
