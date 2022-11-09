@@ -489,10 +489,13 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  padding-left: 16px;
 }
 
 .footer__social-icon {
   /* border: orange 1px solid; */
+  height: 16px;
+  width: 16px;
 }
 
 .footer__column-link:hover {
