@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.nav-title-header-block {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
